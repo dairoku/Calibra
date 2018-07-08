@@ -1,0 +1,8 @@
+# Visual Studio Files
+*.vcxproj.user
+*.suo
+
+# Visual Studio Directories
+Debug/
+Release/
+.vs/

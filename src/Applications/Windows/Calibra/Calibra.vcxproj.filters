@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Kernel">
+      <UniqueIdentifier>{6acc8fda-af50-4b6f-a400-9783f4501759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MFC">
+      <UniqueIdentifier>{0e24244d-f52f-4249-bb0b-4388b5002453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CalibraDataModel">
+      <UniqueIdentifier>{2403271d-52d5-4913-b5da-6044facfd697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFC">
+      <UniqueIdentifier>{668536a3-7cb5-4907-9550-c69afbc038f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kernel">
+      <UniqueIdentifier>{aa19d208-4b1c-4300-ab33-5b677e6be4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resorce Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Kernel\Sources\CameraCalibration.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kernel\Sources\CornerFinder.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kernel\Sources\MultiCameraCalibration.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kernel\Sources\StereoCalibration.cpp">
+      <Filter>Source Files\Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibra.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CalibraDoc.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CalibraWorkerThread.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CornerFinderImageView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="CornerFinderView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageListView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitterWnd.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintfView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\CalibraData.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\CalibraFile.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\CalibraFileUtil.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\CalibraNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\CalibrationNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\CalibrationResultNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\ImageData.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\ImageFolderNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\ImageNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\InputImageNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\MultiCameraCalibrationNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\MultiCameraResultNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\ProjectNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\SingleCameraCalibrationNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\SingleCameraResultNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\StereoCameraCalibrationNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\StereoCameraResultNode.hpp">
+      <Filter>Header Files\CalibraDataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibra.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="CalibraDoc.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="CalibraWorkerThread.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="CornerFinderImageView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="CornerFinderView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageListView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitterWnd.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintfView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\BoostIncludes.hpp">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kernel\Sources\CameraCalibration.hpp">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kernel\Sources\CornerFinder.hpp">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kernel\Sources\MultiCameraCalibration.hpp">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kernel\Sources\StereoCalibration.hpp">
+      <Filter>Header Files\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FilePath.hpp">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Calibra.ico">
+      <Filter>Resorce Files</Filter>
+    </Image>
+    <Image Include="res\CalibraDoc.ico">
+      <Filter>Resorce Files</Filter>
+    </Image>
+    <Image Include="res\corner_bar.bmp">
+      <Filter>Resorce Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resorce Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Calibra.rc">
+      <Filter>Resorce Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Calibra.rc2">
+      <Filter>Resorce Files</Filter>
+    </None>
+    <None Include="Calibra.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
